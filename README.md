@@ -13,6 +13,6 @@ date: "SomeDate (format: yyyy-mm-dd)"
 ---
 ```
 
-When you're done, preview using `gatsby develop` and depoly the website using `npm run deploy`. Your changes are pushed to the gh-pages branch. 
+Preview your edits using `gatsby develop`.
 
-__Push it to master once you depoly__.
+Depoly the website using `./deployBlog.sh "your message"` where `your message` is your commit message.
