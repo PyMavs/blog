@@ -24,16 +24,7 @@ class Template extends React.Component {
           to={'/'}
         >
           <div className="row">
-            <div className="col-lg-2">
-              <img src="content/assets/pythonicon.png"
-                style={{
-                  width: '100%',
-                  // height: '100%',
-                }}
-                alt="Python Icon"
-              />
-            </div>
-            <div className="col-lg-7">
+            <div className="col-lg-12">
               <h1
                 style={{
                   ...scale(2.1),
