@@ -5,10 +5,11 @@ import { rhythm, scale } from '../utils/typography'
 import './bootstrap.min.css'
 import './layout.css'
 
+
 class Template extends React.Component {
   render() {
     const { location, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
+    const rootPath = `/blog/`
     let header
     let panel
 
@@ -24,11 +25,12 @@ class Template extends React.Component {
         >
           <div className="row">
             <div className="col-lg-2">
-              <img src="icons/pythonicon.png"
+              <img src="content/assets/pythonicon.png"
                 style={{
                   width: '100%',
                   // height: '100%',
                 }}
+                alt="Python Icon"
               />
             </div>
             <div className="col-lg-7">
